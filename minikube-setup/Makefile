@@ -13,8 +13,7 @@ init-cluster:
         --memory $(memory) \
         --cpus $(cpu) \
         --nodes $(nodes) \
-        --embed-certs  \
-		--static-ip 10.211.55.70
+        --embed-certs 
 
 
 .PHONY: setup-cluster
